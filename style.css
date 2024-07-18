@@ -475,7 +475,7 @@ section#utilize-the-about {
     font-weight: 500;
     font-size: x-large;
     color: white;
-
+    text-align: center;
 }
 
 .hire-our-service-main-box-sub-box-image-box img {
@@ -1134,12 +1134,48 @@ section#counter {
     top: 173px;
     font-weight: 600;
 }
-
+.writers-main-heading-box{
+    width: 100%;
+    /* border: 2px solid orangered; */
+    margin-bottom: 60px;
+}
+.writer-main-heading-styles{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.writer-main-description {
+    text-align: center;
+    color: white;
+}
+.display-block{
+    display: block;
+}
+.home-page-writer-heading-styles{
+    color: black !important;
+}
+.home-page-writer-description{
+    color: black !important;
+}
 /* ===== Writer Section End =====  */
 /* ===== Testimonial Section Start =====  */
+.testimonial-main-heading-box{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.testimonial-heading-styles{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+}
+#testimonial {
+    padding-top: 30px;
+}
 .testimonial-main-box {
     width: 100%;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     display: flex;
     justify-content: center;
     align-items: center;
