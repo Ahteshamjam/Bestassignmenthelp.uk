@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page</title>
     <meta name="description" content="">
-  <meta name="keywords" content="">
-  <title>Service Page</title>
+    <meta name="title" content="">
+    <!-- ===== favicon Link ===== -->
+    <link rel="shortcut icon" href="images/favicon (1).ico" type="image/x-icon">
     <!-- ===== Bootstrap Link ===== -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -19,76 +21,83 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    
+
     <!-- ===== box icon link ===== -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- ===== My Css Link ===== -->
     <link rel="stylesheet" href="style.css">
+    <!-- ===== COUNTER CSS AND JS CDNS Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 </head>
 
 <body>
     <!-- ===== Header Section Start ===== -->
-    <header>
-        <section id="header" class="container-two">
-          <section class="inner-section">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="images/ahtesham black color log.webp" alt="Web Site Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Services
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="admission-essay-writing.html">Admission Essay Writing</a></li>
-                        <li><a class="dropdown-item" href="#">Collage Essay Writing</a></li>
-                        <li><a class="dropdown-item" href="#">University Assignment Help</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#testimonial">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#writers">Writer</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"><img src="images/england-150397_640.webp" alt="">03123456789</a>
-                    </li>
-    
+  <header>
+    <section id="header" class="container-two">
+      <section class="inner-section">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="images/ahtesham black color log.webp" alt="Web Site Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="admission-essay-writing.html">Admission Essay Writing</a></li>
+                    <li><a class="dropdown-item" href="#">Collage Essay Writing</a></li>
+                    <li><a class="dropdown-item" href="#">University Assignment Help</a></li>
                   </ul>
-                  <form class="d-flex" role="search">
-                    <button class="btn btn-outline-success" type="submit"><a href="#">Live Chat</a> </button>
-                    <button class="btn btn-outline-success bg-colo-change" type="submit"> <a href="order.html"> Order Now</a></button>
-                    </form>
-                </div>
-              </div>
-            </nav>
-          </section>
-        </section>
-      </header>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonial">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#writers">Writer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://wa.me/+442080028776?text=Hi,%20I%20saw%20your%20website%20BestAssignmentHelp.uk"><img src="images/england-150397_640.webp"
+                      alt="Flage Icon Image">+44 20 8002 8776</a>
+                </li>
+
+              </ul>
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-success live-chat" type="submit"><a href="#">Live Chat</a> </button>
+                <button class="btn btn-outline-success bg-colo-change" type="submit"> <a href="order.html"> Order
+                    Now</a></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </section>
+  </header>
   <!-- ===== Header Section End ===== -->
     <!-- ===== Main Section Start ===== -->
     <main>
         <!-- ===== About Hero Start ===== -->
-<section id="about-hero" class="container-two.">
-            <section class="inner-section">
-                <img src="images/" alt="Service Hero Image" class="about-hero-image-adjust">
+        <section id="about-hero" class="container-two.">
+            <section class="inner-section" id="service-page-inner-section-adjust">
+                <img src="images/service-hero-image.webp" alt="Service Hero Image" class="about-hero-image-adjust">
                 <div class="about-hero-main-box">
                     <div class="about-hero-main-box-left">
                         <h1 class="about-hero-main-box-left-heading-style">Lorem ipsum dolor sit amet consectetur,
@@ -98,8 +107,10 @@
                             facilis omnis!</p>
                         <div class="hero-main-box-left-btn-box">
                             <form class="d-flex" role="search">
-                                <button class="btn btn-outline-success" type="submit">Live Chat</button>
-                                <button class="btn btn-outline-success bg-colo-change" type="submit">Order Now</button>
+                                <a href="#"> <button class="btn btn-outline-success" type="submit">Live
+                                        Chat</button></a>
+                                <a href="order.html"><button class="btn btn-outline-success bg-colo-change"
+                                        type="submit">Order Now</button></a>
                             </form>
                         </div>
                     </div>
@@ -125,8 +136,9 @@
                             of following projects:</p>
                         <div class="hero-main-box-left-btn-box">
                             <form class="d-flex" role="search">
-                                <button class="btn btn-outline-success" type="submit">Live Chat</button>
-                                <button class="btn btn-outline-success bg-colo-change" type="submit">Order Now</button>
+                                <a href="#"><button class="btn btn-outline-success" type="submit">Live Chat</button></a>
+                                <a href="order.html"><button class="btn btn-outline-success bg-colo-change"
+                                        type="submit">Order Now</button></a>
                             </form>
                         </div>
                     </div>
@@ -136,85 +148,85 @@
                             <form action="">
                                 <select name="" id="" required>
                                     <option value="" selected="selected">Select Paper Type</option>
-                                                  <option value="Essay">Essay</option>
-                                                  <option value="Essay">Term paper</option>
-                                                  <option value="Essay">Research paper</option>
-                                                  <option value="Essay">Course Work</option>
-                                                  <option value="Essay">Thesis</option>
-                                                  <option value="Essay">Thesis Proposal</option>
-                                                  <option value="Essay">Assignment</option>
-                                                  <option value="Essay">Exposition Writing</option>
-                                                  <option value="Essay">Critical analysis</option>
-                                                  <option value="Essay">Reflection paper</option>
-                                                  <option value="Essay">Reflective Essay</option>
-                                                  <option value="Essay">Analytical Essay</option>
-                                                  <option value="Essay">Brief Overview</option>
-                                                  <option value="Essay">Response Essay</option>
-                                                  <option value="Essay">Response paper</option>
-                                                  <option value="Essay">Argumentative Essay</option>
-                                                  <option value="Essay">Contrast Essay</option>
-                                                  <option value="Essay">Research Essay</option>
-                                                  <option value="Essay">Literature Review</option>
-                                                  <option value="Essay">Dissertation</option>
-                                                  <option value="Essay">Dissertation Chapter - Abstract</option>
-                                                  <option value="Essay">Dissertation Chapter - Introduction Chapter</option>
-                                                  <option value="Essay">Dissertation Chapter - Literature Review</option>
-                                                  <option value="Essay">Dissertation Chapter - Methodology</option>
-                                                  <option value="Essay">Dissertation Chapter - Result</option>
-                                                  <option value="Essay">Dissertation Chapter - Discussion</option>
-                                                  <option value="Essay">Capstone Project</option>
-                                                  <option value="Essay">Dissertation Chapter</option>
-                                                  <option value="Essay">Reflective Writing</option>
-                                                  <option value="Essay">Report</option>
-                                                  <option value="Essay">Proofreading</option>
-                                                  <option value="Essay">Lab Report</option>
-                                                  <option value="Essay">PowerPoint Presentation</option>
-                                                  <option value="Essay">Reaction Paper</option>
-                                                  <option value="Essay">Rewriting</option>
-                                                  <option value="Essay">Press Release</option>
-                                                  <option value="Essay">Statement of Purpose</option>
-                                                  <option value="Essay">Letter of Recommendation</option>
-                                                  <option value="Essay">Project</option>
-                                                  <option value="Essay">Book Report</option>
-                                                  <option value="Essay">Book Review</option>
-                                                  <option value="Essay">Movie Review</option>
-                                                  <option value="Essay">Research Proposal</option>
-                                                  <option value="Essay">Case Study</option>
-                                                  <option value="Essay">Lab ReportArticle</option>
-                                                  <option value="Essay">Article Critique</option>
-                                                  <option value="Essay">Annotated Bibliography</option>
-                                                  <option value="Essay">Speech / Presentation</option>
-                                                  <option value="Essay">Power Point Presentation (without speaker notes)</option>
-                                                  <option value="Essay">Power Point Presentation (with speaker notes)</option>
-                                                  <option value="Essay">Admission Essays</option>
-                                                  <option value="Essay">Admission Services - Editing</option>
-                                                  <option value="Essay">Scholarship Essay</option>
-                                                  <option value="Essay">Personal Statement</option>
-                                                  <option value="Essay">News Release</option>
-                                                  <option value="Essay">Biography</option>
-                                                  <option value="Essay">Business Plan</option>
-                                                  <option value="Essay">EBooks</option>
-                                                  <option value="Essay">Editing</option>
-                                                  <option value="Essay">Formatting</option>
-                                                  <option value="Essay">Quiz</option>
-                                                  <option value="Essay">Multiple Choice Questions (Non Time Framed)</option>
-                                                  <option value="Essay">Multiple Choice Questions (Time Framed)</option>
-                                                  <option value="Essay">Math Problem</option>
-                                                  <option value="Essay">Paraphrasing</option>
-                                                  <option value="Essay">Resume</option>
-                                                  <option value="Essay">Cover Letter</option>
-                                                  <option value="Essay">Poster</option>
-                                                  <option value="Essay">Other</option>
-                                  </select>
-                                  <select name="" id="" required>
+                                    <option value="Essay">Essay</option>
+                                    <option value="Essay">Term paper</option>
+                                    <option value="Essay">Research paper</option>
+                                    <option value="Essay">Course Work</option>
+                                    <option value="Essay">Thesis</option>
+                                    <option value="Essay">Thesis Proposal</option>
+                                    <option value="Essay">Assignment</option>
+                                    <option value="Essay">Exposition Writing</option>
+                                    <option value="Essay">Critical analysis</option>
+                                    <option value="Essay">Reflection paper</option>
+                                    <option value="Essay">Reflective Essay</option>
+                                    <option value="Essay">Analytical Essay</option>
+                                    <option value="Essay">Brief Overview</option>
+                                    <option value="Essay">Response Essay</option>
+                                    <option value="Essay">Response paper</option>
+                                    <option value="Essay">Argumentative Essay</option>
+                                    <option value="Essay">Contrast Essay</option>
+                                    <option value="Essay">Research Essay</option>
+                                    <option value="Essay">Literature Review</option>
+                                    <option value="Essay">Dissertation</option>
+                                    <option value="Essay">Dissertation Chapter - Abstract</option>
+                                    <option value="Essay">Dissertation Chapter - Introduction Chapter</option>
+                                    <option value="Essay">Dissertation Chapter - Literature Review</option>
+                                    <option value="Essay">Dissertation Chapter - Methodology</option>
+                                    <option value="Essay">Dissertation Chapter - Result</option>
+                                    <option value="Essay">Dissertation Chapter - Discussion</option>
+                                    <option value="Essay">Capstone Project</option>
+                                    <option value="Essay">Dissertation Chapter</option>
+                                    <option value="Essay">Reflective Writing</option>
+                                    <option value="Essay">Report</option>
+                                    <option value="Essay">Proofreading</option>
+                                    <option value="Essay">Lab Report</option>
+                                    <option value="Essay">PowerPoint Presentation</option>
+                                    <option value="Essay">Reaction Paper</option>
+                                    <option value="Essay">Rewriting</option>
+                                    <option value="Essay">Press Release</option>
+                                    <option value="Essay">Statement of Purpose</option>
+                                    <option value="Essay">Letter of Recommendation</option>
+                                    <option value="Essay">Project</option>
+                                    <option value="Essay">Book Report</option>
+                                    <option value="Essay">Book Review</option>
+                                    <option value="Essay">Movie Review</option>
+                                    <option value="Essay">Research Proposal</option>
+                                    <option value="Essay">Case Study</option>
+                                    <option value="Essay">Lab ReportArticle</option>
+                                    <option value="Essay">Article Critique</option>
+                                    <option value="Essay">Annotated Bibliography</option>
+                                    <option value="Essay">Speech / Presentation</option>
+                                    <option value="Essay">Power Point Presentation (without speaker notes)</option>
+                                    <option value="Essay">Power Point Presentation (with speaker notes)</option>
+                                    <option value="Essay">Admission Essays</option>
+                                    <option value="Essay">Admission Services - Editing</option>
+                                    <option value="Essay">Scholarship Essay</option>
+                                    <option value="Essay">Personal Statement</option>
+                                    <option value="Essay">News Release</option>
+                                    <option value="Essay">Biography</option>
+                                    <option value="Essay">Business Plan</option>
+                                    <option value="Essay">EBooks</option>
+                                    <option value="Essay">Editing</option>
+                                    <option value="Essay">Formatting</option>
+                                    <option value="Essay">Quiz</option>
+                                    <option value="Essay">Multiple Choice Questions (Non Time Framed)</option>
+                                    <option value="Essay">Multiple Choice Questions (Time Framed)</option>
+                                    <option value="Essay">Math Problem</option>
+                                    <option value="Essay">Paraphrasing</option>
+                                    <option value="Essay">Resume</option>
+                                    <option value="Essay">Cover Letter</option>
+                                    <option value="Essay">Poster</option>
+                                    <option value="Essay">Other</option>
+                                </select>
+                                <select name="" id="" required>
                                     <option value="0" selected="selected">Select Academic Level</option>
                                     <option value="High Scool">High Scool</option>
                                     <option value="College / Undergraduate">College / Undergraduate</option>
                                     <option value="University">University</option>
                                     <option value="Master">Master</option>
                                     <option value="MPhil / PhD">MPhil / PhD</option>
-                                  </select>
-                                  <select name="" id="" required>
+                                </select>
+                                <select name="" id="" required>
                                     <option value="" selected="selected">Select Deadline</option>
                                     <option value="15 Days +">15 Days +</option>
                                     <option value="15 Days +">10 Days</option>
@@ -227,8 +239,8 @@
                                     <option value="15 Days +">24 Hours</option>
                                     <option value="15 Days +">12 Hours</option>
                                     <option value="15 Days +">6 Hours</option>
-                                  </select>
-                                  <select name="" id="" required>
+                                </select>
+                                <select name="" id="" required>
                                     <option value="" selected="selected">Select Number of Page</option>
                                     <option value="1 page" data-page="1">1 Page / 250 Words</option>
                                     <option value="1 page" data-page="1">2 Pages / 500 + Words</option>
@@ -331,7 +343,7 @@
                                     <option value="1 page" data-page="1">98 Pages / 24500 + Words</option>
                                     <option value="1 page" data-page="1">99 Pages / 24750 + Words</option>
                                     <option value="1 page" data-page="1">100 Pages / 25000 + Words</option>
-                                  </select>
+                                </select>
                                 <p class="total-price-description">Total Price:<span> 0.00</span></p>
                                 <button class="btn btn-outline-success" type="submit">Order Now</button>
 
@@ -410,24 +422,28 @@
         </section>
         <!-- ===== About Preid Section End ===== -->
         <!-- ===== Counter Section Start ===== -->
-        <section id="counter" class="container-two">
+        <section id="counter" class="container-two counter-back-ground-none">
             <section class="inner-section">
                 <div class="counter-main-box">
-                    <div class="counter-mmain-box-sub-box">
-                        <h3 class="counter-mmain-box-sub-box-heading-style">2186 <span>+</span></h3>
-                        <p class="counter-mmain-box-sub-box-description">Grades Improved</p>
-                    </div>
-                    <div class="counter-mmain-box-sub-box">
-                        <h3 class="counter-mmain-box-sub-box-heading-style">300 <span>+</span></h3>
-                        <p class="counter-mmain-box-sub-box-description">Expert Writers</p>
-                    </div>
-                    <div class="counter-mmain-box-sub-box">
-                        <h3 class="counter-mmain-box-sub-box-heading-style">2186 <span>+</span></h3>
-                        <p class="counter-mmain-box-sub-box-description">Grades Improved</p>
-                    </div>
-                    <div class="counter-mmain-box-sub-box">
-                        <h3 class="counter-mmain-box-sub-box-heading-style">96% <span>+</span></h3>
-                        <p class="counter-mmain-box-sub-box-description">Happy Bar</p>
+                    <div class="counter-up">
+                        <div class="content">
+                            <div class="box">
+                                <div class="counter counter-mmain-box-sub-box-heading-style">2186</div>
+                                <div class="text counter-mmain-box-sub-box-description">Grades Improved</div>
+                            </div>
+                            <div class="box counter-mmain-box-sub-box-heading-style">
+                                <div class="counter">300 </div>
+                                <div class="text counter-mmain-box-sub-box-description">Expert Writers</div>
+                            </div>
+                            <div class="box counter-mmain-box-sub-box-heading-style">
+                                <div class="counter">2186</div>
+                                <div class="text counter-mmain-box-sub-box-description">Grades Improved</div>
+                            </div>
+                            <div class="box counter-mmain-box-sub-box-heading-style">
+                                <div class="counter">96</div>
+                                <div class="text counter-mmain-box-sub-box-description">Happy Bar</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -445,15 +461,15 @@
                         </div>
                     </div>
                     <div class="see-how-our-main-box-sub-box center-box-add-margin-top-and-bottom">
-                        <div class="see-how-our-main-box-sub-box-left"><i class='bx bx-phone-call'></i></div>
+                        <div class="see-how-our-main-box-sub-box-left"><i class='bx bx-support'></i></div>
                         <div class="see-how-our-main-box-sub-box-right adjust-alingment"><span
-                                class="see-how-our-main-box-sub-box-right-span-tag-style">030322006156</span></div>
+                                class="see-how-our-main-box-sub-box-right-span-tag-style">24/7 Available</span></div>
                     </div>
                     <div class="see-how-our-main-box-sub-box">
-                        <div class="see-how-our-main-box-sub-box-left"><i class='bx bx-phone-call'></i></div>
+                        <div class="see-how-our-main-box-sub-box-left"><i class='bx bx-conversation'></i></div>
                         <div class="see-how-our-main-box-sub-box-right">
-                            <p class="see-how-our-main-box-sub-box-right-description">Cell us at</p><span
-                                class="see-how-our-main-box-sub-box-right-span-tag-style">030322006156</span>
+                            <p class="see-how-our-main-box-sub-box-right-description"> Click here to</p><span
+                                class="see-how-our-main-box-sub-box-right-span-tag-style">Start Live Chat</span>
                         </div>
                     </div>
                 </div>
@@ -496,8 +512,12 @@
                             Beatae, sint reiciendis, deleniti libero quos sit sequi rerum distinctio veritatis earum
                             eligendi totam
                             voluptas excepturi, fugiat facere.</p>
-                        <form class="d-flex add-margin-top" role="search">
-                            <button class="btn btn-outline-success" type="submit">Order Now</button>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-success live-chat" type="submit"><a href="#">Live Chat</a>
+                            </button>
+                            <button class="btn btn-outline-success bg-colo-change" type="submit"> <a href="order.html">
+                                    Order
+                                    Now</a></button>
                         </form>
                     </div>
                     <div class="quick-ordder-main-box-right">
@@ -507,37 +527,37 @@
                         <div class="circle-box"></div>
                         <div class="quick-ordder-main-box-right-sub-box">
                             <div class="quick-ordder-main-box-right-sub-box-first-box">
-                                <img src="images/customer-support.png" alt=""
+                                <img src="images/Order-Processing.webp" alt="Order Processing"
                                     class="quick-ordder-main-box-right-sub-box-first-box-icon-size-adjust">
-                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Lorem, ipsum.
+                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Order Processing
                                 </h4>
                                 <p class="quick-ordder-main-box-right-sub-box-first-box-description">Lorem ipsum dolor
                                     sit amet
                                     consectetur adipisicing elit. Iure deserunt debitis sequi</p>
                             </div>
                             <div class="quick-ordder-main-box-right-sub-box-first-box">
-                                <img src="images/customer-support.png" alt=""
+                                <img src="images/Pay-for-Dissertation.webp" alt="Pay for Dissertation"
                                     class="quick-ordder-main-box-right-sub-box-first-box-icon-size-adjust">
-                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Lorem, ipsum.
-                                </h4>
+                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Pay for
+                                    Dissertation</h4>
                                 <p class="quick-ordder-main-box-right-sub-box-first-box-description">Lorem ipsum dolor
                                     sit amet
                                     consectetur adipisicing elit. Iure deserunt debitis sequi</p>
                             </div>
                             <div class="quick-ordder-main-box-right-sub-box-first-box">
-                                <img src="images/customer-support.png" alt=""
+                                <img src="images/Careful-instructions .webp" alt="Careful instructions "
                                     class="quick-ordder-main-box-right-sub-box-first-box-icon-size-adjust">
-                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Lorem, ipsum.
-                                </h4>
+                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Careful
+                                    instructions </h4>
                                 <p class="quick-ordder-main-box-right-sub-box-first-box-description">Lorem ipsum dolor
                                     sit amet
                                     consectetur adipisicing elit. Iure deserunt debitis sequi</p>
                             </div>
                             <div class="quick-ordder-main-box-right-sub-box-first-box">
-                                <img src="images/customer-support.png" alt=""
+                                <img src="images/Careful-instructions .webp" alt="Careful instructions"
                                     class="quick-ordder-main-box-right-sub-box-first-box-icon-size-adjust">
-                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Lorem, ipsum.
-                                </h4>
+                                <h4 class="quick-ordder-main-box-right-sub-box-first-box-heading-style">Careful
+                                    instructions</h4>
                                 <p class="quick-ordder-main-box-right-sub-box-first-box-description">Lorem ipsum dolor
                                     sit amet
                                     consectetur adipisicing elit. Iure deserunt debitis sequi</p>
@@ -554,11 +574,13 @@
                 <div class="writers-main-box">
                     <div class="writers-main-box-left">
                         <span class="writers-main-box-left-span-style">Our Writers</span>
-                        <h2 class="writers-main-box-left-heading-style">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit.
+                        <h2 class="writers-main-box-left-heading-style" id="testimonialHeading">Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.
                             Laboriosam molestiae corporis repellendus!</h2>
-                        <p class="writers-main-box-left-description">Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit.
+                        <span class="writer-name-first mobile-display-block-responsive"
+                            id="teatimonialName2">Alishba</span>
+                        <p class="writers-main-box-left-description" id="testimonialText">Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit.
                             Incidunt voluptates, distinctio repellendus error voluptatem ratione labore animi eum
                             adipisci debitis
                             voluptatum perspiciatis totam porro suscipit deleniti nisi placeat sequi aut quae ipsam
@@ -567,17 +589,37 @@
                             suscipit,
                             tenetur quibusdam eum, omnis tempora animi laboriosam culpa modi illum voluptas. Non,
                             voluptas.</p>
-                        <form class="d-flex add-margin-top" role="search">
-                            <button class="btn btn-outline-success" type="submit">Order Now</button>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-success live-chat hire-now" type="submit"><a
+                                    href="order.html">Hire Now</a> </button>
                         </form>
                     </div>
                     <div class="writers-main-box-right">
-                        <div class="writers-main-box-right-first-circle">
+                        <span class="writer-name-first display-none-responsive-design color-change-service-page"
+                            id="teatimonialName">Alishba</span>
+                        <div class="terimonial-image-mobile">
+                            <div class="sub-mobile-image">
+                                <img src="images/writer-first-image.webp" alt="Writer Image"
+                                    class="mobile-responsive-image-width-adjust">
+                                <img src="images/writer-second-image.webp" alt="Writer Image"
+                                    class="mobile-responsive-image-width-adjust">
+                                <img src="images/writer-third-image.webp" alt="Writer Image"
+                                    class="mobile-responsive-image-width-adjust">
+                                <img src="images/writer-four-image.webp" alt="Writer Image"
+                                    class="mobile-responsive-image-width-adjust">
+                            </div>
+                        </div>
+                        <div class="writers-main-box-right-first-circle rotate">
                             <div class="writers-main-box-right-second-circle"></div>
-                            <img src="images/writer-first-image.webp" alt="" class=" first-image">
-                            <img src="images/writer-second-image.webp" alt="" class=" second-image">
-                            <img src="images/writer-third-image.webp" alt="" class="third-image">
-                            <img src="images/writer-four-image.webp" alt="" class=" four-image">
+                            <img src="images/service-page-writer-name-image.webp" class="writer-center-image">
+                            <img src="images/writer-first-image.webp" alt="Writer Image" class=" first-image"
+                                id="myImage">
+                            <img src="images/writer-second-image.webp" alt="Writer Image" class=" second-image"
+                                id="mysecondimage">
+                            <img src="images/writer-third-image.webp" alt="Writer Image" class="third-image"
+                                id="mythirdimage">
+                            <img src="images/writer-four-image.webp" alt="Writer Image" class=" four-image"
+                                id="myfourimage">
                         </div>
                     </div>
                 </div>
@@ -597,28 +639,31 @@
                         </div>
                         <div class="empety-combine-circle-white-right-box"></div>
                         <div class="empety-combine-circle-white-bottom-box"></div>
-                        <div class="empety-combine-circle-white-right-box-first-image-box"><img
-                                src="images/writer-first-image.webp" alt="Testinonial Image"
-                                class="testimonuial-first-image-style"></div>
-                        <div class="empety-combine-circle-white-right-box-second-image-box"><img
-                                src="images/writer-first-image.webp" alt="Testinonial Image"
-                                class="testimonuial-first-image-style">
+                        <div class="empety-combine-circle-white-right-box-first-image-box">
+                            <img src="images/writer-circle-image.webp" alt="Testinonial Image"
+                                class="testimonuial-first-image-style" id="mytestimonialsecondImage">
                         </div>
-                        <div class="empety-combine-circle-white-right-box-third-image-box"><img
-                                src="images/writer-first-image.webp" alt="Testinonial Image"
-                                class="testimonuial--image-style"></div>
-                        <div class="empety-combine-circle-white-right-box-four-image-box"><img
-                                src="images/writer-first-image.webp" alt="Testinonial Image"
-                                class="testimonuial--image-style-four"></div>
+                        <div class="empety-combine-circle-white-right-box-second-image-box">
+                            <img src="images/writer-circle-image.webp" alt="Testinonial Image"
+                                class="testimonuial-first-image-style" id="mytestimonialImage">
+                        </div>
+                        <div class="empety-combine-circle-white-right-box-third-image-box">
+                            <img src="images/writer-circle-image.webp" alt="Testinonial Image"
+                                class="testimonuial--image-style" id="mytestimonialthirdImage">
+                        </div>
+                        <div class="empety-combine-circle-white-right-box-four-image-box">
+                            <img src="images/writer-circle-image.webp" alt="Testinonial Image"
+                                class="testimonuial--image-style-four" id="mytestimonialfourImage">
+                        </div>
                         <div class="testimonial-main-box-sub-box-content-box">
-                            <h4 class="testimonial-main-box-sub-box-content-box-heading-style">Lorem ipsum dolor sit
-                                amet.</h4>
-                            <p class="testimonial-main-box-sub-box-content-box-description">Lorem ipsum dolor sit amet
-                                consectetur
+                            <h4 class="testimonial-main-box-sub-box-content-box-heading-style">Assignment Help Uk Essay
+                                Writing</h4>
+                            <p class="testimonial-main-box-sub-box-content-box-description" id="writerText">Lorem ipsum
+                                dolor sit amet consectetur
                                 adipisicing elit. Consequuntur ipsam doloremque, corrupti corporis voluptatem officia
                                 non nihil error
                                 blanditiis soluta omnis aspernatur velit.</p>
-                            <span class="customer-name">Saleem</span>
+                            <span class="customer-name" id="writerHeading">Saleem</span>
                         </div>
                     </div>
                 </div>
@@ -636,21 +681,27 @@
                                 <label for="first">What is according? <span>&#x3e;</span></label>
                                 <input type="radio" name="accordion" id="first" checked>
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut, temporibus. Nostrum modi accusantium placeat est?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem
+                                        accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut,
+                                        temporibus. Nostrum modi accusantium placeat est?</p>
                                 </div>
                             </li>
                             <li>
                                 <label for="second">What is according? <span>&#x3e;</span></label>
-                                <input type="radio" name="accordion" id="second" >
+                                <input type="radio" name="accordion" id="second">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut, temporibus. Nostrum modi accusantium placeat est?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem
+                                        accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut,
+                                        temporibus. Nostrum modi accusantium placeat est?</p>
                                 </div>
                             </li>
                             <li>
                                 <label for="third">What is according? <span>&#x3e;</span></label>
-                                <input type="radio" name="accordion" id="third" >
+                                <input type="radio" name="accordion" id="third">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut, temporibus. Nostrum modi accusantium placeat est?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem
+                                        accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut,
+                                        temporibus. Nostrum modi accusantium placeat est?</p>
                                 </div>
                             </li>
                         </ul>
@@ -661,21 +712,27 @@
                                 <label for="four">What is according? <span>&#x3e;</span></label>
                                 <input type="radio" name="accordion" id="four">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut, temporibus. Nostrum modi accusantium placeat est?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem
+                                        accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut,
+                                        temporibus. Nostrum modi accusantium placeat est?</p>
                                 </div>
                             </li>
                             <li>
                                 <label for="five">What is according? <span>&#x3e;</span></label>
-                                <input type="radio" name="accordion" id="five" >
+                                <input type="radio" name="accordion" id="five">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut, temporibus. Nostrum modi accusantium placeat est?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem
+                                        accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut,
+                                        temporibus. Nostrum modi accusantium placeat est?</p>
                                 </div>
                             </li>
                             <li>
                                 <label for="six">What is according? <span>&#x3e;</span></label>
-                                <input type="radio" name="accordion" id="six" >
+                                <input type="radio" name="accordion" id="six">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut, temporibus. Nostrum modi accusantium placeat est?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor autem
+                                        accusantium amet hic voluptate ut sed est, eos dicta laborum quisquam quas. Ut,
+                                        temporibus. Nostrum modi accusantium placeat est?</p>
                                 </div>
                             </li>
                         </ul>
@@ -691,19 +748,19 @@
                     <div class="contact-second-last-main-box-sub-box">
                         <a href="#">
                             <p class="contact-second-last-main-box-sub-box-description"><img
-                                    src="images/linkdin-logo.webp" alt="Cell Icon">+1 (888) 337 5415</p>
+                                    src="images/phone-icon.webp" alt="Cell Icon">+1 (888) 337 5415</p>
                         </a>
                     </div>
                     <div class="contact-second-last-main-box-sub-box">
                         <a href="#">
                             <p class="contact-second-last-main-box-sub-box-description"><img
-                                    src="images/linkdin-logo.webp" alt="Cell Icon">+1 (888) 337 5415</p>
+                                    src="images/whatsapp-icon.webp" alt="Cell Icon">+1 (888) 337 5415</p>
                         </a>
                     </div>
                     <div class="contact-second-last-main-box-sub-box">
                         <a href="#">
                             <p class="contact-second-last-main-box-sub-box-description"><img
-                                    src="images/linkdin-logo.webp" alt="Cell Icon">info@bestassignmenthelp.co.uk</p>
+                                    src="images/email-icon.webp" alt="Cell Icon">info@bestassignmenthelp.co.uk</p>
                         </a>
                     </div>
                 </div>
@@ -715,96 +772,114 @@
     <!-- ===== Footer Section Start ===== -->
     <footer>
         <section id="footer" class="container-two">
-          <section class="inner-section">
-            <div class="footer-main-box">
-              <div class="footer-main-box-sub-box">
-                <img src="images/ahtesham black color log.webp" alt="Footer Logo" class="footer-logo-style">
-                <h3 class="footer-main-box-sub-box-heading-style">How Our Service is Used</h3>
-                <p class="footer-main-box-sub-box-description">experts’ papers and recommendations are NOT intended to be
-                  submitted as completed assignments. The work of our experts is required to be used by students only for
-                  research and condone plagiarism of any kind.</p>
-                <p class="we-accept-heading">WE ACCEPT:</p>
-                <img src="images/all-payments-new.webp" alt="Payment Icon" class="payment-icon-width-adjust">
-              </div>
-              <div class="footer-main-box-sub-box service-box">
-                <h3 class="footer-main-box-sub-box-heading-style font-size-style-footer">Services</h3>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Custom Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Dissertation Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Research Paper Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Proofreading Service</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">College Essay Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Coursework Writing Service</p>
-                </a>
-              </div>
-              <div class="footer-main-box-sub-box service-box">
-                <h3 class="footer-main-box-sub-box-heading-style font-size-style-footer">About Us</h3>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Custom Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Dissertation Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Research Paper Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Proofreading Service</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">College Essay Writing</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect">Coursework Writing Service</p>
-                </a>
-              </div>
-              <div class="footer-main-box-sub-box">
-                <h3 class="footer-main-box-sub-box-heading-style font-size-style-footer">Contact Us</h3>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect email-text"><i
-                      class='bx bxs-envelope'></i>info@bestassignmenthelp.co.uk</p>
-                </a>
-                <a href="#">
-                  <p class="footer-main-box-sub-box-description hover-effect cell-text"><i class='bx bxs-phone'></i>+1 (888)
-                    337 5415</p>
-                </a>
-                <p class="we-accept-heading">Follow Us:</p>
-                <div class="social-media-icon-box">
-                  <div class="social-media-icon-box-sub-box"><img src="images/facebook-logo.webp" alt="Social Meadia Icon">
-                  </div>
-                  <div class="social-media-icon-box-sub-box"><img src="images/Twiter-logo.webp" alt="Social Meadia Icon">
-                  </div>
-                  <div class="social-media-icon-box-sub-box"><img src="images/instagram-logo.webp" alt="Social Meadia Icon">
-                  </div>
-                  <div class="social-media-icon-box-sub-box"><img src="images/linkdin-logo.webp" alt="Social Meadia Icon">
-                  </div>
+            <section class="inner-section">
+                <div class="footer-main-box">
+                    <div class="footer-main-box-sub-box">
+                        <img src="images/ahtesham black color log.webp" alt="Footer Logo" class="footer-logo-style">
+                        <h3 class="footer-main-box-sub-box-heading-style">How Our Service is Used</h3>
+                        <p class="footer-main-box-sub-box-description">experts’ papers and recommendations are NOT
+                            intended to be
+                            submitted as completed assignments. The work of our experts is required to be used by
+                            students only for
+                            research and condone plagiarism of any kind.</p>
+                        <p class="we-accept-heading">WE ACCEPT:</p>
+                        <img src="images/all-payments-new.webp" alt="Payment Icon" class="payment-icon-width-adjust">
+                    </div>
+                    <div class="footer-main-box-sub-box service-box">
+                        <h3 class="footer-main-box-sub-box-heading-style font-size-style-footer">Services</h3>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Custom Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Dissertation Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Research Paper Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Proofreading Service</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">College Essay Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Coursework Writing Service</p>
+                        </a>
+                    </div>
+                    <div class="footer-main-box-sub-box service-box">
+                        <h3 class="footer-main-box-sub-box-heading-style font-size-style-footer">About Us</h3>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Custom Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Dissertation Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Research Paper Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Proofreading Service</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">College Essay Writing</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect">Coursework Writing Service</p>
+                        </a>
+                    </div>
+                    <div class="footer-main-box-sub-box">
+                        <h3 class="footer-main-box-sub-box-heading-style font-size-style-footer">Contact Us</h3>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect email-text"><i
+                                    class='bx bxs-envelope'></i>info@bestassignmenthelp.co.uk</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-main-box-sub-box-description hover-effect cell-text"><i
+                                    class='bx bxs-phone'></i>+1 (888)
+                                337 5415</p>
+                        </a>
+                        <p class="we-accept-heading">Follow Us:</p>
+                        <div class="social-media-icon-box">
+                            <div class="social-media-icon-box-sub-box"><img src="images/facebook-logo.webp"
+                                    alt="Social Meadia Icon">
+                            </div>
+                            <div class="social-media-icon-box-sub-box"><img src="images/Twiter-logo.webp"
+                                    alt="Social Meadia Icon">
+                            </div>
+                            <div class="social-media-icon-box-sub-box"><img src="images/instagram-logo.webp"
+                                    alt="Social Meadia Icon">
+                            </div>
+                            <div class="social-media-icon-box-sub-box"><img src="images/linkdin-logo.webp"
+                                    alt="Social Meadia Icon">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </section>
+            </section>
         </section>
         <section id="copyright" class="container-two">
-          <section class="inner-section">
-            <div class="copyright-main-box">
-              <p class="copyright-main-box-first-para">2024Bestassignmenthelp.uk All rights reserved</p>
-              <p class="copyright-main-box-second-para">Local:</p>
-            </div>
-          </section>
+            <section class="inner-section">
+                <div class="copyright-main-box">
+                    <p class="copyright-main-box-first-para">2024Bestassignmenthelp.uk All rights reserved</p>
+                    <p class="copyright-main-box-second-para">Local:</p>
+                </div>
+            </section>
         </section>
-      </footer>
+    </footer>
     <!-- ===== Footer Section End ===== -->
-
- 
+    <!-- javascript section START  -->
+    <script src="script.js"></script>
+    <!-- javascript section END -->
+    <!-- COUNTER javascript section START -->
+    <script>
+        $(document).ready(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1200
+            });
+        });
+    </script>
+    <!-- COUNTER javascript section END -->
 </body>
 
 </html>
